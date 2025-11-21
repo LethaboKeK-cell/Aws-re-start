@@ -30,7 +30,6 @@ Throughout the program, I curated and structured multiple GitHub repositories to
 - **AWS Labs**: Hands-on projects covering EC2 setup, S3 hosting, IAM roles, and VPC architecture
 - **Python Automation**: Scripts for file handling, API calls, and cloud automation tasks
 - **Database Projects**: SQL and NoSQL exercises with DynamoDB and RDS
-- **Cloud Architecture Diagrams**: Annotated visuals for full-stack AWS solutions
 - **README Templates**: Beginner-friendly documentation for teaching and reuse
 
 Each repo is modularized and annotated to support both learning and teaching — reflecting my passion for accessible, scalable technical education.
