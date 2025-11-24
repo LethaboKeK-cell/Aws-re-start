@@ -1,4 +1,4 @@
-# 🚀 Amazon RDS Lab: High Availability, Connectivity & Web Integration
+#  Amazon RDS Lab: High Availability, Connectivity & Web Integration
 
 This guide walks through the steps to:
 1. Launch a **highly available Amazon RDS MySQL instance**
@@ -7,7 +7,7 @@ This guide walks through the steps to:
 
 ---
 
-## 🧱 1. Launch a Highly Available Amazon RDS DB Instance
+##  1. Launch a Highly Available Amazon RDS DB Instance
 
 ### Step 1: Choose Creation Method
 - Go to **Amazon RDS Console**
@@ -53,7 +53,7 @@ This guide walks through the steps to:
 
 ---
 
-## 🔐 2. Configure DB Access from Web Server
+##  2. Configure DB Access from Web Server
 
 ### Step 1: Create Security Groups
 
@@ -104,7 +104,7 @@ This guide walks through the steps to:
 
 ---
 
-## 🧪 Verification Checklist
+##  Verification Checklist
 
 - [x] RDS instance launched with Multi-AZ
 - [x] Security groups configured for DB access
@@ -113,6 +113,6 @@ This guide walks through the steps to:
 
 ---
 
-## 📁 Tags
+##  Tags
 
 `AWS`, `RDS`, `MySQL`, `High Availability`, `Web App`, `Security Groups`, `Cloud Lab`, `Multi-AZ`, `Database Connectivity`
