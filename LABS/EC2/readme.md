@@ -1,8 +1,8 @@
 
 
-## 📦 1. Launch an EC2 Instance via AWS Management Console
+##  1. Launch an EC2 Instance via AWS Management Console
 
-### 🔧 Step-by-Step Configuration
+###  Step-by-Step Configuration
 
 1. **Start the Launch Process**
    - Go to **EC2 Dashboard** → Click **Launch Instance**
@@ -15,7 +15,7 @@
    - Select: `t3.micro` (2 vCPUs, 1 GiB RAM, Free tier eligible)
 
 4. **Key Pair (Login)**
-   - ⚠️ Recommended: Create or choose an existing key pair
+   - Recommended: Create or choose an existing key pair
    - For lab/demo: You may proceed without a key pair (not secure for production)
 
 5. **Network Settings**
@@ -25,7 +25,7 @@
    - Security Group:
      - Name: `bastion security group`
      - Description: `Permit SSH connections`
-     - Inbound Rule: `TCP | Port 22 | Source: 0.0.0.0/0` (⚠️ Open to all IPs)
+     - Inbound Rule: `TCP | Port 22 | Source: 0.0.0.0/0` ( Open to all IPs)
 
 6. **Storage Configuration**
    - Root volume: `8 GiB`, `gp3`, `3000 IOPS`, not encrypted
@@ -42,7 +42,7 @@
 
 ---
 
-## 🔌 2. Connect via EC2 Instance Connect
+##  2. Connect via EC2 Instance Connect
 
 Once the instance is running:
 
@@ -56,9 +56,9 @@ Once the instance is running:
 
 ---
 
-## 🖥️ 3. Launch an EC2 Instance via AWS CLI
+##  3. Launch an EC2 Instance via AWS CLI
 
-### 📁 Prerequisites
+###  Prerequisites
 
 - AWS CLI installed and configured (`aws configure`)
 - `UserData.txt` script downloaded from S3:
