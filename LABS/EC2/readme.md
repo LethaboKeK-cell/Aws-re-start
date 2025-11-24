@@ -67,7 +67,7 @@ Once the instance is running:
 curl -o UserData.txt https://aws-c2-labprojects.s3.us-west-2.amazonaws.com/CS-1307/2023/Lab-1/UserData.txt
 ```
 
-### 🧠 Retrieve Required Parameters
+###  Retrieve Required Parameters
 
 ```bash
 # Get latest Amazon Linux AMI ID
@@ -89,7 +89,7 @@ aws ec2 describe-security-groups \
   --output text
 ```
 
-### 🚀 Launch the Instance
+###  Launch the Instance
 
 ```bash
 INSTANCE=$( \
@@ -107,7 +107,7 @@ aws ec2 run-instances \
 echo "Launched Instance ID: $INSTANCE"
 ```
 
-### 🔍 Verify Instance Status & DNS
+###  Verify Instance Status & DNS
 
 ```bash
 # Check if instance is running
@@ -125,7 +125,7 @@ aws ec2 describe-instances \
 
 ---
 
-## 🧠 Notes
+##  Notes
 
 - Security group rule `0.0.0.0/0` allows access from any IP. For production, restrict to known IP ranges.
 - Free tier includes up to 750 hours/month of t2.micro or t3.micro usage and 30 GB of EBS storage.
