@@ -11,7 +11,7 @@ Through guided labs, real-world scenarios, and instructor-led sessions, I develo
 - **Security** best practices and IAM configurations
 - **Databases** (SQL and NoSQL) and cloud-native storage
 - **Automation** using scripts and cloud-native tools
-- **Core AWS Services** including EC2, S3, RDS, DynamoDB, VPC, IAM, CloudFront, and Lambda
+- **Core AWS Services** including EC2, S3, RDS, DynamoDB, VPC and IAM
 
 ## 💼 Professional Development
 The program also strengthened my career readiness through:
