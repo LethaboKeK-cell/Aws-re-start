@@ -1,7 +1,7 @@
 # 🌩️ AWS re/Start Program – My Cloud Journey
 
 ## 📘 About the Program
-The **AWS re/Start** program is a full-time, cohort-based workforce development initiative designed to equip learners with foundational cloud computing skills. Delivered by **Praesignis** in South Africa, the program prepares participants for the **AWS Certified Cloud Practitioner (CLF-C02)** exam through expert-led instruction, hands-on labs, and career readiness coaching.
+The **AWS re/Start** program is a 3-MONTH PROGRAM, cohort-based workforce development initiative designed to equip learners with foundational cloud computing skills. Delivered by **Praesignis** in South Africa, the program prepares participants for the **AWS Certified Cloud Practitioner (CLF-C02)** exam through expert-led instruction, hands-on labs, and career readiness coaching.
 
 ## 🛠️ Technical Skills Acquired
 Through guided labs, real-world scenarios, and instructor-led sessions, I developed proficiency in:
