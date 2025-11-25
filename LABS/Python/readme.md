@@ -2,7 +2,7 @@
 
 #  Human Insulin Analysis with Python
 
-This project demonstrates how to analyze the human insulin sequence using Python. It focuses on assigning variables to biological sequences, printing outputs for clarity, and calculating molecular weight using amino acid data. The repo includes multiple `.py` and `.txt` files to scaffold learning and experimentation.
+This project demonstrates how to analyze the human insulin sequence using Python. It focuses on assigning variables to biological sequences, printing outputs for clarity, and calculating molecular weight using amino acid data. The repo includes multiple `.py` and `.txt` files to learn.
 
 ---
 
