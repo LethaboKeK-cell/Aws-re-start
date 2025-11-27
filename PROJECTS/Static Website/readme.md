@@ -1,12 +1,12 @@
 
 
-# 📘 Host a Static Website on Amazon S3
+#  Host a Static Website on Amazon S3
 
 This guide walks you through creating an S3 bucket and configuring it to host a static website. It includes setup, permissions, file upload, and public access steps.
 
 ---
 
-## 🪣 Step 1: Create an S3 Bucket
+##  Step 1: Create an S3 Bucket
 
 1. Go to the **AWS S3 Console** and click **Create bucket**
 2. Set the following:
@@ -16,7 +16,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## 🔐 Step 2: Configure Bucket Settings
+##  Step 2: Configure Bucket Settings
 
 ### Object Ownership
 - Select **ACLs disabled (recommended)** → This enforces *bucket owner control*
@@ -28,7 +28,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
   - Block access via any ACLs
   - Block access via public bucket policies
 
-> ⚠️ You’ll disable these later to allow public website access.
+>  You’ll disable these later to allow public website access.
 
 ### Versioning & Encryption
 - **Versioning**: Leave **Disabled** unless you want to track file changes
@@ -36,7 +36,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## 🌐 Step 3: Enable Static Website Hosting
+##  Step 3: Enable Static Website Hosting
 
 1. Go to the bucket’s **Properties** tab
 2. Scroll to **Static website hosting**
@@ -46,7 +46,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## 📜 Step 4: Set Bucket Policy for Public Access
+##  Step 4: Set Bucket Policy for Public Access
 
 1. Go to the **Permissions** tab → **Bucket Policy**
 2. Paste the following JSON to allow public read access:
@@ -72,7 +72,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## 🚫 Step 5: Disable Block Public Access
+##  Step 5: Disable Block Public Access
 
 1. Go to **Permissions** → **Block Public Access**
 2. Click **Edit**
@@ -81,7 +81,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## 📁 Step 6: Upload Website Files
+##  Step 6: Upload Website Files
 
 1. Go to the **Objects** tab
 2. Click **Upload**
@@ -90,7 +90,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## 🌍 Step 7: Access Your Website
+##  Step 7: Access Your Website
 
 - Go to **Properties** → **Static website hosting**
 - Copy the **Endpoint URL**
@@ -98,7 +98,7 @@ This guide walks you through creating an S3 bucket and configuring it to host a 
 
 ---
 
-## ✅ Final Notes
+##  Final Notes
 
 - **No need to use ACLs** — bucket policies are sufficient
 - **Object Lock** is disabled unless you need WORM compliance
