@@ -1,4 +1,4 @@
-# 🌩️ AWS re/Start Program – My Cloud Journey
+#  AWS re/Start Program – My Cloud Journey
 
 ## 📘 About the Program
 The **AWS re/Start** program is a 3-MONTH PROGRAM, cohort-based workforce development initiative designed to equip learners with foundational cloud computing skills. Delivered by **Praesignis** in South Africa, the program prepares participants for the **AWS Certified Cloud Practitioner (CLF-C02)** exam through expert-led instruction, hands-on labs, and career readiness coaching.
@@ -21,9 +21,9 @@ The program also strengthened my career readiness through:
 
 ## 🧠 Certifications & Achievements
 As part of my AWS re/Start journey, I earned:
-- 🏅 **AWS Cloud Quest: Cloud Practitioner** badge
-- 🧠 **AI Practitioner Learning Plan** certificate (Praesignis)
-- 🧠 **Generative AI for Decision Makers** certificate (Praesignis)
+-  **AWS Cloud Quest: Cloud Practitioner** badge
+-  **AI Practitioner Learning Plan** certificate (Praesignis)
+-  **Generative AI for Decision Makers** certificate (Praesignis)
 
 ## 📂 GitHub Portfolio Highlights
 Throughout the program, I curated and structured multiple GitHub repositories to showcase my technical growth. These include:
