@@ -1,17 +1,17 @@
 
 
 
-# 🌟 Amazon Aurora Lab: EC2 Connectivity & SQL Interaction
+#  Amazon Aurora Lab: EC2 Connectivity & SQL Interaction
 
 This guide walks through the steps to:
-1. ✅ Create an Amazon Aurora DB cluster
-2. 🔗 Connect to a pre-created EC2 instance
-3. 🔧 Configure EC2 to connect to Aurora
-4. 🧪 Query the Aurora database
+1. Create an Amazon Aurora DB cluster
+2. Connect to a pre-created EC2 instance
+3. Configure EC2 to connect to Aurora
+4. Query the Aurora database
 
 ---
 
-## 🚀 1. Create an Amazon Aurora DB Cluster
+##  1. Create an Amazon Aurora DB Cluster
 
 ### Step 1: Launch Aurora via RDS Console
 - Go to **Amazon RDS Console** → **Databases** → **Create database**
@@ -40,11 +40,11 @@ This guide walks through the steps to:
 - Enable **Performance Insights**
 - Enable **Encryption** with default AWS KMS key
 
-✅ Wait for status to change from `Configuring` to `Available` before proceeding
+ Wait for status to change from `Configuring` to `Available` before proceeding
 
 ---
 
-## 🖥️ 2. Connect to a Pre-Created EC2 Instance
+##  2. Connect to a Pre-Created EC2 Instance
 
 ### Step 1: SSH into EC2
 ```bash
@@ -56,11 +56,11 @@ ssh -i your-key.pem ec2-user@your-ec2-public-ip
 sudo yum install mariadb -y
 ```
 
-✅ Result: CLI tool installed for querying Aurora
+ Result: CLI tool installed for querying Aurora
 
 ---
 
-## 🔐 3. Configure EC2 to Connect to Aurora
+##  3. Configure EC2 to Connect to Aurora
 
 ### Step 1: Security Group Rules
 - Ensure EC2 instance’s security group allows **outbound traffic**
@@ -72,7 +72,7 @@ sudo yum install mariadb -y
 
 ---
 
-## 🧑‍💻 4. Query the Aurora Database
+##  4. Query the Aurora Database
 
 ### Step 1: Connect via CLI
 ```bash
@@ -114,11 +114,11 @@ INSERT INTO country VALUES ('THA','Thailand','Asia','Southeast Asia',513115.00,1
 SELECT * FROM country WHERE GNP > 35000 AND Population > 1000000;
 ```
 
-✅ Result: Aurora responds with matching rows
+ Result: Aurora responds with matching rows
 
 ---
 
-## ✅ Final Checklist
+##  Final Checklist
 
 - [x] Aurora DB cluster created and available
 - [x] EC2 instance connected and configured
@@ -127,7 +127,7 @@ SELECT * FROM country WHERE GNP > 35000 AND Population > 1000000;
 
 ---
 
-## 📁 Tags
+##  Tags
 
 `AWS`, `Aurora`, `RDS`, `EC2`, `MySQL`, `MariaDB`, `Cloud Lab`, `Database Connectivity`, `Multi-AZ`, `SQL`
 
