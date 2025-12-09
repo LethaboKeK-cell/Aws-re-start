@@ -10,36 +10,36 @@ This lab was all about building a robust, secure, and scalable backend using Ama
 
 ###  Step 1: Creation Method  
 I started in the **Amazon RDS Console** and chose **Standard Create** because I wanted full control over every configuration detail.  
-![Engine & Creation Method](DATABASE/engine-creation-method.png)
+![Engine & Creation Method](engine-creation-method.png)
 
 ###  Step 2: Engine Selection  
 I selected **MySQL** as the database engine since it's widely supported and perfect for my web app.  
-![MySQL Engine Selection](DATABASE/engine-creation-method.png)
+![MySQL Engine Selection](engine-creation-method.png)
 
 ###  Step 3: Deployment Template  
 I picked the **Production** template to ensure high availability and durability.  
-![Deployment Template](DATABASE/deployment-template.png)
+![Deployment Template](deployment-template.png)
 
 ###  Step 4: Settings  
 I named the instance `lab-db`, set the master username to `main`, and manually created a strong password to keep things secure.  
-![DB Settings](DATABASE/db-settings.png)
+![DB Settings](db-settings.png)
 
 ###  Step 5: Instance Configuration  
 I chose the `db.t3.medium` instance class for a balance of performance and cost, and allocated `200 GiB` of General Purpose SSD storage.  
-![Instance Configuration](DATABASE/instance-config.png)
+![Instance Configuration](instance-config.png)
 
 ###  Step 6: Connectivity  
 I connected the instance to my custom VPC (`Lab VPC`) and used a DB subnet group with **2 private subnets** across different AZs. I disabled public access to keep the database private and selected a security group for access control.  
-![Connectivity Settings](DATABASE/connectivity-settings.png)  
-![Subnet Selection](DATABASE/subnet-selection.png)
+![Connectivity Settings](connectivity-settings.png)  
+![Subnet Selection](subnet-selection.png)
 
 ###  Step 7: Monitoring  
 I enabled **Performance Insights** with a 7-day retention period and used the default KMS key for encryption.  
-![Performance Insights](DATABASE/monitoring-logs.png)
+![Performance Insights](monitoring-logs.png)
 
 ###  Step 8: Additional Configuration  
 I named the initial database `lab`, used default parameter and option groups, enabled encryption, and selectively enabled log exports.  
-![Additional Configuration](DATABASE/additional-config.png)
+![Additional Configuration](additional-config.png)
 
  **Result**: My RDS instance `lab-db` was successfully launched with Multi-AZ high availability and encryption enabled.
 
@@ -54,8 +54,8 @@ I created a security group named `Web Security Group` to allow HTTP and HTTPS tr
 
 ####  DB Security Group  
 Then I created `DB Security Group` to permit MySQL access from the web server. I linked it to the same VPC and added an inbound rule for port `3306`, sourced from the Web Security Group.  
-![Security Group Creation](DATABASE/db-security-group.png)  
-![Inbound Rule for MySQL](DATABASE/mysql-inbound-rule.png)
+![Security Group Creation](db-security-group.png)  
+![Inbound Rule for MySQL](mysql-inbound-rule.png)
 
  **Result**: My web server could securely connect to the RDS instance.
 
@@ -66,7 +66,7 @@ Then I created `DB Security Group` to permit MySQL access from the web server. I
 ###  Step 1: Retrieve RDS Endpoint  
 Once the instance was live, I grabbed the endpoint:  
 `lab-db.cmzreufuyjpp.us-west-2.rds.amazonaws.com`  
-![RDS Login Interface](DATABASE/rds-login-interface.png)
+![RDS Login Interface](rds-login-interface.png)
 
 ###  Step 2: Configure Web App  
 I plugged the endpoint and credentials into my app’s database config:
@@ -80,7 +80,7 @@ I deployed the app on EC2 and ensured it used the `Web Security Group`. Then I c
 
 ###  Step 4: Interact with DB  
 I built a simple **Address Book Web App** that lets users add, edit, and remove contacts. The backend connects to RDS using the credentials above.  
-![Address Book Web App](DATABASE/address-book-app.png)
+![Address Book Web App](address-book-app.png)
 
 **Result**: The web app successfully interacts with the RDS database.
 
