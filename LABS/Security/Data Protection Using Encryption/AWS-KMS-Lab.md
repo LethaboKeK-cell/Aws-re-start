@@ -31,6 +31,8 @@ I set up my AWS CLI credentials and default region.
    - **Default region:** I used `us-west-2`.  
    - **Output format:** I left it blank (JSON works too).  
 
+![1](Screenshot%202025-11-24%20150817.png)
+
 2. To verify, I checked my credentials file:
 
    ```bash
@@ -46,11 +48,20 @@ I set up my AWS CLI credentials and default region.
 I created a symmetric KMS key configured for encrypt/decrypt operations.
 
 1. **Key type:** I chose **Symmetric**.  
+
+![00](Screenshot%202025-11-24%20144525.png)
+
 2. **Key usage:** I set it to **Encrypt and decrypt**.  
 3. **Labels:**  
    - Alias: `MyKMSKey`  
    - Description: Key used to encrypt and decrypt data files  
+
+![01](Screenshot%202025-11-24%20144553.png)
+
 4. **Key administrators:** I added IAM roles/users (e.g., `voclabs`) to administer the key.  
+
+![02](Screenshot%202025-11-24%20144625.png)
+
 5. **Key users:** I added IAM roles/users allowed to use the key in cryptographic operations.  
 6. **Key ARN:** I copied the Key ARN and noted the alias `alias/MyKMSKey`.
 
@@ -68,11 +79,15 @@ I installed the CLI and ensured my PATH was set correctly.
    pip3 install aws-encryption-sdk-cli
    ```
 
+![2](Screenshot%202025-11-24%20150908.png)
+
 2. Exported local bin to PATH:
 
    ```bash
    export PATH=$PATH:/home/ssm-user/.local/bin
    ```
+
+![002](Screenshot%202025-11-24%20150929.png)
 
 3. Verified installation:
 
@@ -93,6 +108,8 @@ I tested encryption with a sample file.
    echo 'TOP SECRET !!!!' > secret1.txt
    cat secret1.txt
    ```
+
+![3](Screenshot%202025-11-24%20150951.png)
 
 2. Encrypted with my key alias:
 
