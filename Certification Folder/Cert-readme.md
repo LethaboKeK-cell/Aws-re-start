@@ -80,7 +80,7 @@ You can view the official certificate here:
 
 You can view the official certificate here:
 
-[Database cert.pdf](Database%20cert.pdf)
+[Database cert.pdf](assets/Screenshot%202025-12-11%20145749.png)
 
 ## 📄 Certification PDF
 
