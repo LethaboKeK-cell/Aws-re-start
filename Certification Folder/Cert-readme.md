@@ -64,29 +64,29 @@ I completed the AWS File Systems in the Cloud Skill Builder lab by working hands
 
 ---
 
-## 📄 Certification PDF
+## 📄 Certification 
 
 You can view the official certificate here:
 
-[Storage.pdf](Storage.pdf)
+[Storage.](Storage.pdf)
 
-## 📄 Certification PDF
-
-You can view the official certificate here:
-
-[Security cert.pdf](Security%20cert.pdf)
-
-## 📄 Certification PDF
+## 📄 Certification 
 
 You can view the official certificate here:
 
-[Database cert.pdf](assets/Screenshot%202025-12-11%20145749.png)
+[Security cert.](Security%20cert.pdf)
 
-## 📄 Certification PDF
+## 📄 Certification 
 
 You can view the official certificate here:
 
-[Networking cert.pdf](Networking%20cert.pdf)
+![Database cert](assets/Screenshot%202025-12-11%20145749.png)
+
+## 📄 Certification 
+
+You can view the official certificate here:
+
+[Networking cert.](Networking%20cert.pdf)
 
 ---
 
