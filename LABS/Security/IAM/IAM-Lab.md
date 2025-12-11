@@ -33,7 +33,7 @@ Then I set the following rules:
 
 After saving, I confirmed the policy was active with all the controls I wanted.
 
-![1](Screenshot%2025-11-24%155333.png)
+![1](Screenshot%202025-11-24%20155333.png)
 
 ---
 
