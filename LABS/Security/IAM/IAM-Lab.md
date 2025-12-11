@@ -45,7 +45,6 @@ Under **IAM > User groups**, I checked the groups like `S3-Support` and `EC2-Sup
 
 I mapped which users should belong to which groups based on their roles — for example, S3 read-only access versus EC2 support duties.
 
-![2](Screenshot%2025-11-24%160123.png)
 
 ---
 
@@ -132,6 +131,7 @@ For S3, I attached a policy that allowed reading and listing buckets and objects
 
 I made sure groups only had what they needed — combining read-only access with narrowly scoped admin actions when required.
 
+---
 
 Step 4: Adding Users to Groups with the Right Capabilities
 Once the policies were in place, I added users to the right groups. I opened the target group under:
@@ -139,6 +139,10 @@ Once the policies were in place, I added users to the right groups. I opened the
 Code
 IAM > User groups > Select group (e.g., S3-Support, EC2-Support)
 I searched for the intended users, checked them, and added them to the group. After that, I confirmed the group details listed the selected users.
+
+![2](Screenshot%202025-11-24%20160123.png)
+
+![3](Screenshot%202025-11-24%20160214.png)
 
 ---
 
