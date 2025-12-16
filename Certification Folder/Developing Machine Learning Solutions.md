@@ -12,4 +12,4 @@ Auchelle Dry
 Michelle Vaz  
 Director, AWS Training & Certification  
 
-![AWS Logo](aws.png)
+![AWS Logo](assets/aws.png)
